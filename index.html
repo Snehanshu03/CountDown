@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Burst - Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Time Burst</h1>
+            <p class="subtitle">Something amazing is coming...</p>
+        </header>
+        
+        <main class="countdown-container">
+            <div class="countdown-grid">
+                <div class="countdown-box">
+                    <div class="number" id="days">--</div>
+                    <div class="label">DAYS</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="number" id="hours">--</div>
+                    <div class="label">HOURS</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="number" id="minutes">--</div>
+                    <div class="label">MINUTES</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="number" id="seconds">--</div>
+                    <div class="label">SECONDS</div>
+                </div>
+            </div>
+        </main>
+        
+        <div class="button-container">
+            <button id="clickMeBtn" class="btn btn--primary click-me-btn hidden">Click Me!</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
