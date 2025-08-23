@@ -156,7 +156,7 @@ class CountdownTimer {
         
         // Redirect after brief delay
         setTimeout(() => {
-            window.location.href = 'https://www.google.com';
+            window.location.href = 'https://snehanshu03.github.io/Sush-Birthday/';
         }, 300);
     }
 }
@@ -165,7 +165,7 @@ class CountdownTimer {
 const applicationData = {
     "target_date": "2025-08-25T00:00:00+05:30",
     "target_date_readable": "August 25, 2025 at 12:00 AM IST",
-    "redirect_url": "https://www.google.com",
+    "redirect_url": "https://snehanshu03.github.io/Sush-Birthday/",
     "timer_labels": ["DAYS", "HOURS", "MINUTES", "SECONDS"],
     "timezone": "Asia/Kolkata"
 };
